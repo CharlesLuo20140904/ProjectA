@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "NSString+Extension.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *contentLabel;
 
 @end
 
@@ -16,7 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    NSString *timeStamp = @"1572761982";
+    self.contentLabel.text = [timeStamp getDateStringByFormat:@"Y年M月d日"];
 }
 
 

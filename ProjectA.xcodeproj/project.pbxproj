@@ -15,6 +15,15 @@
 		7EFE4DF8231E2C21000F6623 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE4DF7231E2C21000F6623 /* main.m */; };
 		7EFE4E02231E2C21000F6623 /* ProjectATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE4E01231E2C21000F6623 /* ProjectATests.m */; };
 		7EFE4E0D231E2C21000F6623 /* ProjectAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE4E0C231E2C21000F6623 /* ProjectAUITests.m */; };
+		7EFE4E24231E2E39000F6623 /* BaseTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE4E23231E2E39000F6623 /* BaseTabbarController.m */; };
+		7EFE4E27231E2E5B000F6623 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE4E26231E2E5B000F6623 /* BaseViewController.m */; };
+		7EFE4E2A231E2E70000F6623 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE4E29231E2E70000F6623 /* BaseTableView.m */; };
+		7EFE4E2D231E2E83000F6623 /* BaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE4E2C231E2E83000F6623 /* BaseCollectionView.m */; };
+		7EFE4E30231E2EA8000F6623 /* BaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE4E2F231E2EA8000F6623 /* BaseScrollView.m */; };
+		7EFE4E3A231E312F000F6623 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE4E39231E312F000F6623 /* BaseNavigationController.m */; };
+		7EFE4E3D231E319C000F6623 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE4E3C231E319C000F6623 /* UIView+Extension.m */; };
+		7EFE4E40231E33E1000F6623 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE4E3F231E33E1000F6623 /* NSString+Extension.m */; };
+		7EFE4E44231E34D9000F6623 /* GlobalDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE4E43231E34D9000F6623 /* GlobalDateFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,27 @@
 		7EFE4E08231E2C21000F6623 /* ProjectAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EFE4E0C231E2C21000F6623 /* ProjectAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectAUITests.m; sourceTree = "<group>"; };
 		7EFE4E0E231E2C21000F6623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFE4E1E231E2D1A000F6623 /* ProjectAHeader-prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProjectAHeader-prefix.h"; sourceTree = "<group>"; };
+		7EFE4E23231E2E39000F6623 /* BaseTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabbarController.m; sourceTree = "<group>"; };
+		7EFE4E25231E2E5B000F6623 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		7EFE4E26231E2E5B000F6623 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		7EFE4E28231E2E70000F6623 /* BaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		7EFE4E29231E2E70000F6623 /* BaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		7EFE4E2B231E2E83000F6623 /* BaseCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCollectionView.h; sourceTree = "<group>"; };
+		7EFE4E2C231E2E83000F6623 /* BaseCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionView.m; sourceTree = "<group>"; };
+		7EFE4E2E231E2EA8000F6623 /* BaseScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseScrollView.h; sourceTree = "<group>"; };
+		7EFE4E2F231E2EA8000F6623 /* BaseScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseScrollView.m; sourceTree = "<group>"; };
+		7EFE4E35231E3038000F6623 /* BaseTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabbarController.h; sourceTree = "<group>"; };
+		7EFE4E36231E30AD000F6623 /* ProjectAConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectAConst.h; sourceTree = "<group>"; };
+		7EFE4E37231E30CC000F6623 /* ProjectAUrls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectAUrls.h; sourceTree = "<group>"; };
+		7EFE4E38231E312F000F6623 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		7EFE4E39231E312F000F6623 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		7EFE4E3B231E319C000F6623 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		7EFE4E3C231E319C000F6623 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		7EFE4E3E231E33E1000F6623 /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		7EFE4E3F231E33E1000F6623 /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		7EFE4E42231E34D9000F6623 /* GlobalDateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalDateFormatter.h; sourceTree = "<group>"; };
+		7EFE4E43231E34D9000F6623 /* GlobalDateFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalDateFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +131,15 @@
 		7EFE4DE7231E2C20000F6623 /* ProjectA */ = {
 			isa = PBXGroup;
 			children = (
-				7EFE4DE8231E2C20000F6623 /* AppDelegate.h */,
-				7EFE4DE9231E2C20000F6623 /* AppDelegate.m */,
-				7EFE4DEB231E2C20000F6623 /* ViewController.h */,
-				7EFE4DEC231E2C20000F6623 /* ViewController.m */,
-				7EFE4DEE231E2C20000F6623 /* Main.storyboard */,
-				7EFE4DF1231E2C21000F6623 /* Assets.xcassets */,
-				7EFE4DF3231E2C21000F6623 /* LaunchScreen.storyboard */,
-				7EFE4DF6231E2C21000F6623 /* Info.plist */,
-				7EFE4DF7231E2C21000F6623 /* main.m */,
+				7EFE4E1A231E2C28000F6623 /* Class */,
+				7EFE4E32231E2EC3000F6623 /* Category */,
+				7EFE4E31231E2EB0000F6623 /* Components */,
+				7EFE4E34231E2EEB000F6623 /* NetWorking */,
+				7EFE4E33231E2ECB000F6623 /* Venders */,
+				7EFE4E1D231E2CE6000F6623 /* Macro */,
+				7EFE4E1C231E2C4A000F6623 /* Resource */,
+				7EFE4E1B231E2C34000F6623 /* SupporttingFile */,
+				7EFE4E1F231E2D60000F6623 /* LocationString */,
 			);
 			path = ProjectA;
 			sourceTree = "<group>";
@@ -130,6 +160,123 @@
 				7EFE4E0E231E2C21000F6623 /* Info.plist */,
 			);
 			path = ProjectAUITests;
+			sourceTree = "<group>";
+		};
+		7EFE4E1A231E2C28000F6623 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7EFE4E21231E2D9A000F6623 /* Base */,
+				7EFE4E20231E2D8B000F6623 /* Delegate */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		7EFE4E1B231E2C34000F6623 /* SupporttingFile */ = {
+			isa = PBXGroup;
+			children = (
+				7EFE4DEE231E2C20000F6623 /* Main.storyboard */,
+				7EFE4DF3231E2C21000F6623 /* LaunchScreen.storyboard */,
+				7EFE4DF6231E2C21000F6623 /* Info.plist */,
+				7EFE4DF7231E2C21000F6623 /* main.m */,
+			);
+			path = SupporttingFile;
+			sourceTree = "<group>";
+		};
+		7EFE4E1C231E2C4A000F6623 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7EFE4DF1231E2C21000F6623 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7EFE4E1D231E2CE6000F6623 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				7EFE4E1E231E2D1A000F6623 /* ProjectAHeader-prefix.h */,
+				7EFE4E36231E30AD000F6623 /* ProjectAConst.h */,
+				7EFE4E37231E30CC000F6623 /* ProjectAUrls.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		7EFE4E1F231E2D60000F6623 /* LocationString */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LocationString;
+			sourceTree = "<group>";
+		};
+		7EFE4E20231E2D8B000F6623 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7EFE4DE8231E2C20000F6623 /* AppDelegate.h */,
+				7EFE4DE9231E2C20000F6623 /* AppDelegate.m */,
+				7EFE4DEB231E2C20000F6623 /* ViewController.h */,
+				7EFE4DEC231E2C20000F6623 /* ViewController.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		7EFE4E21231E2D9A000F6623 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7EFE4E2B231E2E83000F6623 /* BaseCollectionView.h */,
+				7EFE4E2C231E2E83000F6623 /* BaseCollectionView.m */,
+				7EFE4E35231E3038000F6623 /* BaseTabbarController.h */,
+				7EFE4E23231E2E39000F6623 /* BaseTabbarController.m */,
+				7EFE4E28231E2E70000F6623 /* BaseTableView.h */,
+				7EFE4E29231E2E70000F6623 /* BaseTableView.m */,
+				7EFE4E25231E2E5B000F6623 /* BaseViewController.h */,
+				7EFE4E26231E2E5B000F6623 /* BaseViewController.m */,
+				7EFE4E2E231E2EA8000F6623 /* BaseScrollView.h */,
+				7EFE4E2F231E2EA8000F6623 /* BaseScrollView.m */,
+				7EFE4E38231E312F000F6623 /* BaseNavigationController.h */,
+				7EFE4E39231E312F000F6623 /* BaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7EFE4E31231E2EB0000F6623 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7EFE4E41231E3447000F6623 /* SingleTon */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7EFE4E32231E2EC3000F6623 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7EFE4E3B231E319C000F6623 /* UIView+Extension.h */,
+				7EFE4E3C231E319C000F6623 /* UIView+Extension.m */,
+				7EFE4E3E231E33E1000F6623 /* NSString+Extension.h */,
+				7EFE4E3F231E33E1000F6623 /* NSString+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7EFE4E33231E2ECB000F6623 /* Venders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Venders;
+			sourceTree = "<group>";
+		};
+		7EFE4E34231E2EEB000F6623 /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
+		7EFE4E41231E3447000F6623 /* SingleTon */ = {
+			isa = PBXGroup;
+			children = (
+				7EFE4E42231E34D9000F6623 /* GlobalDateFormatter.h */,
+				7EFE4E43231E34D9000F6623 /* GlobalDateFormatter.m */,
+			);
+			path = SingleTon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +409,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EFE4E3D231E319C000F6623 /* UIView+Extension.m in Sources */,
+				7EFE4E30231E2EA8000F6623 /* BaseScrollView.m in Sources */,
+				7EFE4E2A231E2E70000F6623 /* BaseTableView.m in Sources */,
+				7EFE4E44231E34D9000F6623 /* GlobalDateFormatter.m in Sources */,
 				7EFE4DED231E2C20000F6623 /* ViewController.m in Sources */,
+				7EFE4E27231E2E5B000F6623 /* BaseViewController.m in Sources */,
+				7EFE4E40231E33E1000F6623 /* NSString+Extension.m in Sources */,
 				7EFE4DF8231E2C21000F6623 /* main.m in Sources */,
+				7EFE4E3A231E312F000F6623 /* BaseNavigationController.m in Sources */,
+				7EFE4E2D231E2E83000F6623 /* BaseCollectionView.m in Sources */,
 				7EFE4DEA231E2C20000F6623 /* AppDelegate.m in Sources */,
+				7EFE4E24231E2E39000F6623 /* BaseTabbarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +593,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AV46R9Z259;
-				INFOPLIST_FILE = ProjectA/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ProjectA/SupporttingFile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +610,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AV46R9Z259;
-				INFOPLIST_FILE = ProjectA/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ProjectA/SupporttingFile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

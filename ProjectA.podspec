@@ -28,9 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/CharlesLuo20140904/ProjectA.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '5.0'
+  s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ProjectA/**'
+  s.source_files = 'ProjectA/Category/*.{h,m}','ProjectA/Class/Base/*.{h,m}','ProjectA/Class/Delegate/*.{h,m}','ProjectA/Components/SingleTon/*.{h,m}','ProjectA/Macro/*.{h,m}'
   
   # s.resource_bundles = {
   #   'AppInitFrameWork' => ['AppInitFrameWork/Assets/*.png']
